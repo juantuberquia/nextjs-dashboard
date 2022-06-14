@@ -7,11 +7,11 @@
     "slider-layout#desktop":{
          "props":{
             "itemsPerPage":{
-                "desktop": 5
+                "desktop": 4
             },
             "showPaginationDots":"never",
             "showNavigationArrows": "never",
-            "centerModeSlidesGap":60
+            "centerModeSlidesGap":20
 
         },
 

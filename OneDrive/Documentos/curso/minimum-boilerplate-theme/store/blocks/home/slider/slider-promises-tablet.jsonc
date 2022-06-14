@@ -9,7 +9,7 @@
     "slider-layout#tablet":{
         "props":{
             "itemsPerPage":{
-                "tablet": 3
+                "tablet": 2
             },
             "centerMode":"to-the-left",
             "showPaginationDots":"never",
@@ -17,7 +17,7 @@
             "centerModeSlidesGap":20,
             "infinite": true,   
             "autoplay": {
-                "timeout":2000,
+                "timeout":1000,
                 "stopOnHover": true
             } 
         },

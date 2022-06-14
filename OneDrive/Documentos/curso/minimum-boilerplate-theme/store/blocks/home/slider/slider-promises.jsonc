@@ -1,11 +1,27 @@
 {
     "flex-layout.row#slider":{
         "children":[
-            "responsive-layout.desktop#slider", 
-            "responsive-layout.tablet#slider",
-            "responsive-layout.phone#slider"]
-    }
+            // "responsive-layout.desktop#slider",
+            // "responsive-layout.tablet#slider",
+            // "responsive-layout.phone#slider"
+            "slider-layout#test"
+            
+            
+        ]
 
-    
+    },
+
+    "slider-layout#test":{
+
+        "props":{
+
+
+        },
+
+        "children":[
+            "flex-layout.row#container-promise-1", "flex-layout.row#container-promise-2","flex-layout.row#container-promise-3", "flex-layout.row#container-promise-4", "flex-layout.row#container-promise-5"
+        ]
+
+    }
  
 }
