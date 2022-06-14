@@ -1,0 +1,56 @@
+{
+
+    "flex-layout.col#content-menu-3":{
+
+        "children":[
+            "flex-layout.row#content-level"
+        ]
+    },
+
+    "flex-layout.row#content-level":{
+        "children":["image#chef", "rich-text#level"],
+
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+
+    },
+
+    "image#chef":{
+
+        "props":{
+
+            "src":"assets/responsive/chef.png",
+            "maxWidth":30,
+            "maxHeight":30
+        }
+    },
+
+    "rich-text#level":{
+
+        "props":{
+            "text":"nivel: principiante"
+        }
+    }
+
+
+    // "flex-layout.row#content-location":{
+
+    //     "children":["image#location", "rich-text#country" ]
+    // },
+
+    // "image#location":{
+
+    //     "props":{
+
+    //         "src":"assets/responsive/map.png"
+    //     }
+    // },
+
+    // "rich-text#country":{
+
+    //     "props":{
+    //         "text":"pais: peru"
+    //     }
+    // }
+}

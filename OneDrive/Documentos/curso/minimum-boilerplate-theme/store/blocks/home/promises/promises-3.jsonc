@@ -1,0 +1,23 @@
+{
+    "flex-layout.col#img-promise-3":
+{
+    "children": [
+        "image#promises"
+    ]
+},
+
+"flex-layout.col#text-promise-3":
+{
+    "children": [
+        "rich-text#information-3"
+    ]
+},
+
+  "rich-text#information-3":{
+    "props":{
+        "text": "mejores precios y **ofertas**",
+        "textPosition" : "LEFT",
+        "textAlignment": "LEFT"
+    }
+}
+}

@@ -1,0 +1,28 @@
+{
+
+    "flex-layout.col#content-menu-6":{
+        "children":["flex-layout.row#content-location"]
+    },
+
+    "flex-layout.row#content-location":{
+        "children":["image#map", "rich-text#country"],
+        
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "image#map":{
+        "props":{
+            "src":"assets/responsive/map.png",
+            "maxWidth":30,
+            "maxHeight":30
+        }
+    },
+
+    "rich-text#country":{
+        "props":{
+            "text":"pais: peru"
+        }
+    }
+}

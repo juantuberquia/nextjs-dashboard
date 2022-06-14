@@ -1,0 +1,23 @@
+{
+    "flex-layout.col#img-promise-5":
+{
+    "children": [
+        "image#promises"
+    ]
+},
+
+"flex-layout.col#text-promise-5":
+{
+    "children": [
+        "rich-text#information-5"
+    ]
+},
+
+  "rich-text#information-5":{
+    "props":{
+        "text": "paga **online y contra entrega**",
+        "textPosition" : "LEFT",
+        "textAlignment": "LEFT"
+    }
+}
+}

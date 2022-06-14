@@ -1,0 +1,36 @@
+{
+    "flex-layout.col#img-promise-1":
+{
+    "children": [
+        "image#promises"
+    ]
+},
+
+"flex-layout.col#text-promise-1":
+{
+    "children": [
+        "rich-text#information"
+    ]
+},
+
+"image#promises":{
+    "props":{
+      "src":"assets/promise.png",
+      "alt":"logo_blacksip",
+      "maxHeight" :150,
+      "maxWidth" :200,
+      "link":{
+        "url" : "https://mail.google.com/mail/u/0/?tab=wm#inbox",
+        "newTab" : true
+      }
+    }
+  },
+
+  "rich-text#information":{
+    "props":{
+        "text": "entrega en **45 min**",
+        "textPosition" : "LEFT",
+        "textAlignment": "LEFT"
+    }
+}
+}

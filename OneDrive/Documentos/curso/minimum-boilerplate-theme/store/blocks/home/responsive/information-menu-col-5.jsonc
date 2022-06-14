@@ -1,0 +1,34 @@
+{
+
+    "flex-layout.col#content-menu-5":{
+        "children":[
+            "flex-layout.row#content-price"
+        ]
+    },
+
+    "flex-layout.row#content-price":{
+
+        "children":["image#offer", "rich-text#price"],
+        
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "image#offer":{
+
+        "props":{
+            "src":"assets/responsive/offer.png",
+            "maxWidth":30,
+            "maxHeight":30
+        }
+    },
+
+    "rich-text#price":{
+
+        "props":{
+
+            "text":"s/1200 - s/1480"
+        }
+    }
+}

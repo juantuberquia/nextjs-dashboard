@@ -1,0 +1,15 @@
+{
+
+   "flex-layout.col#gruop-img-3":{
+
+    "children":[
+        "image#category","rich-text#product-3"
+    ]
+   },
+
+   "rich-text#product-3":{
+    "props":{
+        "text": "cuidado facial"
+    }
+   }
+}

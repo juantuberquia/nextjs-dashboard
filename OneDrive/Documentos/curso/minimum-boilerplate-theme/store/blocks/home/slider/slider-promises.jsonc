@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#slider":{
+        "children":[
+            "responsive-layout.desktop#slider", 
+            "responsive-layout.tablet#slider",
+            "responsive-layout.phone#slider"]
+    }
+
+    
+ 
+}

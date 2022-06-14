@@ -1,0 +1,22 @@
+{
+    "responsive-layout.desktop#slider":{
+        "children":["slider-layout#desktop"]
+
+    },
+
+    "slider-layout#desktop":{
+         "props":{
+            "itemsPerPage":{
+                "desktop": 5
+            },
+            "showPaginationDots":"never",
+            "showNavigationArrows": "never",
+            "centerModeSlidesGap":60
+
+        },
+
+        "children":[
+                    "flex-layout.row#container-promise-1", "flex-layout.row#container-promise-2","flex-layout.row#container-promise-3", "flex-layout.row#container-promise-4", "flex-layout.row#container-promise-5"
+                ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "flex-layout.col#content-menu-2":{
+
+        "children":["flex-layout.row#content-ingredients"]
+    
+    },
+    
+    "flex-layout.row#content-ingredients":{
+    
+        "children":["image#ingredents", "rich-text#number-ingredients"],
+        
+        "props":{
+            "preserveLayoutOnMobile": true
+    }
+   
+    },    
+    
+    "image#ingredents":{
+        "props":{
+            "src":"assets/responsive/ingredients.png",
+            "maxWidth":30,
+            "maxHeight":30
+        }  
+    },
+    
+    "rich-text#number-ingredients" :{
+        "props":{
+            "text":"8 ingredientes"
+        }
+    
+    }
+    
+    // "flex-layout.row#price":{
+    
+    //     "children":["image#offer", "rich-text#price"]
+    // },
+    
+    // "image#offer":{
+    
+    //     "props":{
+    //         "src":"assets/responsive/offer.png"
+    //     }
+    // },
+    
+    // "rich-text#price":{
+    
+    //     "props":{
+    //         "text":"s/1200 - s/1400"
+    //     }
+    // }
+
+}

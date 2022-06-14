@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#content-pavo":{
+        "children":["responsive-layout.desktop#responsive",
+             "responsive-layout.mobile#responsive"]
+    },
+
+    "responsive-layout.desktop#responsive":{
+        "children":[
+            "image#pavo-desktop"
+        ]
+    },
+
+    "image#pavo-desktop":{
+        "props":{
+            "src":"assets/responsive/pavo-desktop.jpg"
+        }
+    },
+
+
+    "responsive-layout.mobile#responsive":{
+        "children":["image#pavo-mobile"]
+    },
+
+    "image#pavo-mobile":{
+        "props":{
+            "src":"assets/responsive/pavo-mobile.jpg",
+            "alt":"pavo_mobile"
+        }
+    }
+}

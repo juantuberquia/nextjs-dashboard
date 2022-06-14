@@ -1,0 +1,23 @@
+{
+    "flex-layout.col#img-promise-4":
+{
+    "children": [
+        "image#promises"
+    ]
+},
+
+"flex-layout.col#text-promise-4":
+{
+    "children": [
+        "rich-text#information-4"
+    ]
+},
+
+  "rich-text#information-4":{
+    "props":{
+        "text": "**seguimiento** a tus pedidos",
+        "textPosition" : "LEFT",
+        "textAlignment": "LEFT"
+    }
+}
+}

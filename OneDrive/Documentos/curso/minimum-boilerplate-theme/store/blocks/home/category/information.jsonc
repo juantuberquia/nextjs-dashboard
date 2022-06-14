@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#text-search":{
+
+        "children":["rich-text#search"]
+    },
+
+    "flex-layout.row#text-see-all":{
+        "children":[ "rich-text#see"]
+
+    },
+
+    "rich-text#search":{
+        "props":{
+            "text": "¿Que estas \n buscando?"
+        }
+    },
+    "rich-text#see":{
+        "props":{
+            "text": "[ver todo](https://blacksip.com/)"
+        }
+    }
+}

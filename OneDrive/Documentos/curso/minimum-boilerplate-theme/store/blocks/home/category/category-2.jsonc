@@ -1,0 +1,14 @@
+{
+    "flex-layout.col#gruop-img-2":{
+
+        "children":[
+            "image#category","rich-text#product-2"
+        ]
+    },
+
+    "rich-text#product-2":{
+        "props":{
+            "text": "cuidado corporal"
+        }
+    }
+}

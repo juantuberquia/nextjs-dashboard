@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#responsive":{
+        "children":[
+            "flex-layout.col#content-pavo",
+            "flex-layout.col#information-pavo"
+        ]
+    }  
+
+    
+}

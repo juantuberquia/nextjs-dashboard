@@ -1,0 +1,35 @@
+{
+
+    "flex-layout.col#content-menu-4":
+    {
+        "children":["flex-layout.row#content-comensales"]
+    },
+
+    "flex-layout.row#content-comensales":{
+
+        "children":[ "image#comensales", "rich-text#numbers-comensales"],
+
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+
+    },
+
+    "image#comensales":{
+
+        "props":{
+            "src":"assets/responsive/comensales.png",
+            "maxWidth":30,
+            "maxHeight":30
+        }
+    },
+
+    "rich-text#numbers-comensales":{
+
+        "props":{
+
+            "text":"4 a 6 comensales"
+        }
+    }
+    
+}

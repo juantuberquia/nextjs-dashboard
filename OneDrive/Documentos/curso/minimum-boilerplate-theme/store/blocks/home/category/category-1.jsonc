@@ -1,0 +1,31 @@
+{
+
+    "flex-layout.col#gruop-img-1":{
+        "children":[
+            "image#category", "rich-text#product-1"
+        ]
+    },
+
+    "image#category":{
+        "props":{
+            "src":"assets/imgCategory.png",
+            "alt":"logo_blacksip",
+            "maxHeight" :150,
+            "maxWidth" :200,
+            "link":{
+              "url" : "https://mail.google.com/mail/u/0/?tab=wm#inbox",
+              "newTab" : true
+            }
+          }
+    },
+
+    "rich-text#product-1":{
+        "props":{
+            "text": "capilar",
+            "textPosition" : "LEFT",
+            "textAlignment": "LEFT"
+        }
+    }
+
+    
+}

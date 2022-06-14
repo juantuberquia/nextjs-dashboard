@@ -1,0 +1,23 @@
+{
+    "flex-layout.col#img-promise-2":
+{
+    "children": [
+        "image#promises"
+    ]
+},
+
+"flex-layout.col#text-promise-2":
+{
+    "children": [
+        "rich-text#information-2"
+    ]
+},
+
+  "rich-text#information-2":{
+    "props":{
+        "text": "compra **facil y seguro**",
+        "textPosition" : "LEFT",
+        "textAlignment": "LEFT"
+    }
+}
+}

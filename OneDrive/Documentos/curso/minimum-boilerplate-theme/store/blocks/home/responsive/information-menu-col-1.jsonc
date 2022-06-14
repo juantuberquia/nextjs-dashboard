@@ -1,0 +1,50 @@
+{
+
+    "flex-layout.col#content-menu-1":{
+    "children":[
+        "flex-layout.row#item-menu-1"
+       
+    ]
+},
+
+"flex-layout.row#item-menu-1":{
+    "children":[
+        "image#time-menu","rich-text#time-menu"
+    ], 
+    "props":{
+        "preserveLayoutOnMobile": true
+    }
+},
+
+"image#time-menu":{
+    "props":{
+        "src": "assets/responsive/time.png",
+        "maxWidth":30,
+        "maxHeight":30
+    }
+},
+
+"rich-text#time-menu":{
+    "props":{
+        "text": "60 minutos"
+       
+    }
+}
+
+// "flex-layout.row#item-menu-2":{
+
+//     "children": ["image#comensales", "rich-text#info-comensales"]
+// },
+
+// "image#comensales":{
+//     "props":{
+//         "src": "assets/responsive/comensales.png"
+//     }
+// },
+
+// "rich-text#info-comensales":{
+//     "props":{
+//         "text":"4 a 6 comemsales"
+//     }
+// }
+}

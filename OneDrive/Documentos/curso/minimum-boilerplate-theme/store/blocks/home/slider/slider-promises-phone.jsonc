@@ -1,0 +1,28 @@
+{
+    "responsive-layout.phone#slider":{
+
+        "children":[
+            "slider-layout#phone"
+        ]
+    },
+
+    "slider-layout#phone":{
+        "props":{
+            "itemsPerPage":{
+                "phone": 1
+            },
+            "centerMode":"to-the-left",
+            "showPaginationDots":"never",
+            "showNavigationArrows": "mobileOnly",
+            "infinite": true,   
+            "autoplay": {
+                "timeout":2000,
+                "stopOnHover": true
+            }            
+        },
+
+        "children":[
+                    "flex-layout.row#container-promise-1", "flex-layout.row#container-promise-2","flex-layout.row#container-promise-3", "flex-layout.row#container-promise-4", "flex-layout.row#container-promise-5"
+                ]
+    }
+}

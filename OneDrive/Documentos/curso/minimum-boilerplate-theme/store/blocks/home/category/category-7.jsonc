@@ -1,0 +1,9 @@
+{
+
+    "flex-layout.col#gruop-img-7":
+        {
+            "children":[
+                "image#category","rich-text#product-2"
+            ]
+        }
+}

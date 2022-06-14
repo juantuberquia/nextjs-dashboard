@@ -1,0 +1,137 @@
+{
+  "store.home": { 
+    "blocks": [
+        "rich-text#valores", "rich-text#lista-valores",  "flex-layout.row#promises", "flex-layout.row#category", "flex-layout.row#responsive", "flex-layout.row#slider"
+    ]
+  },
+  "rich-text#valores": { 
+    "props": { 
+      "text": "# Nuestros Valores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": ["text-main"]
+      }
+  },
+
+  "rich-text#lista-valores":{
+    "props":{
+      "text":"\n + Perseguimos el WOW de nuestros clientes \n + Perseguimos el aprendizaje y el crecimiento \n + Somos apasionados y disciplinados \n + Somos un equipo \n + Somos orientas a resultados",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
+    }
+  },
+// block promises
+  "flex-layout.row#promises":{
+    "children":[
+    "flex-layout.col#promises-1",
+    "flex-layout.col#promises-2",
+    "flex-layout.col#promises-3",
+    "flex-layout.col#promises-4",
+    "flex-layout.col#promises-5"
+    ]
+  },
+
+
+  "flex-layout.col#promises-1":{
+    "children":[
+      "flex-layout.row#container-promise-1"
+      ]
+  },
+
+  "flex-layout.row#container-promise-1":{
+    "children":[
+      "flex-layout.col#img-promise-1",
+      "flex-layout.col#text-promise-1"
+      ]
+  },
+  
+  "flex-layout.col#promises-2":{
+    "children":[
+      "flex-layout.row#container-promise-2"
+      ]
+  },
+
+  "flex-layout.row#container-promise-2":{
+    "children":[
+      "flex-layout.col#img-promise-2",
+      "flex-layout.col#text-promise-2"
+      ]
+  },
+
+  "flex-layout.col#promises-3":{
+    "children":[
+      "flex-layout.row#container-promise-3"
+      ]
+  },
+
+  "flex-layout.row#container-promise-3":{
+    "children":[
+      "flex-layout.col#img-promise-3",
+      "flex-layout.col#text-promise-3"
+      ]
+  },
+
+  "flex-layout.col#promises-4":{
+    "children":[
+      "flex-layout.row#container-promise-4"
+      ]
+  },
+
+  "flex-layout.row#container-promise-4":{
+    "children":[
+      "flex-layout.col#img-promise-4",
+      "flex-layout.col#text-promise-4"
+      ]
+  },
+
+  "flex-layout.col#promises-5":{
+    "children":[
+      "flex-layout.row#container-promise-5"
+      ]
+  },
+
+  "flex-layout.row#container-promise-5":{
+    "children":[
+      "flex-layout.col#img-promise-5",
+      "flex-layout.col#text-promise-5"
+      ]
+  },
+
+  // block category
+  "flex-layout.row#category":{
+    "children":[
+      "flex-layout.col#title",
+      "flex-layout.col#categories"
+    ]
+  },
+
+  "flex-layout.col#title":{
+    "children":[
+      "flex-layout.row#text-search",
+      "flex-layout.row#text-see-all"
+    ] 
+  },
+
+  "flex-layout.col#categories":{
+    "children":[
+      "flex-layout.row#information-category"
+]
+  },
+
+  "flex-layout.row#information-category":{
+    
+    "children":[
+      "flex-layout.col#gruop-img-1",
+      "flex-layout.col#gruop-img-2",
+      "flex-layout.col#gruop-img-3",
+      "flex-layout.col#gruop-img-4",
+      "flex-layout.col#gruop-img-5",
+      "flex-layout.col#gruop-img-6",
+      "flex-layout.col#gruop-img-7",
+      "flex-layout.col#gruop-img-8"
+  ]
+    
+  }
+
+}
