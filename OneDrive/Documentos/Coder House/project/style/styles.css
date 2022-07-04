@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+         /* ESTILOS INDEX */
+/* seccion header */
+.headering {
+  display: flex;
+}
+
+.nav-bar {
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.container-logo {
+  width: 20%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.container-logo img {
+  width: 100%;
+}
+
+.items-nav {
+  display: flex;
+  font-size: 16px;
+  
+}
+
+.items-nav li {
+  margin-right: 2%;
+  list-style: none;
+  background-color: grey;
+  width: 14%;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.items-nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* seccion principal, descripcion y foto */
+.section-main {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+
+}
+.main-back{
+  background-image: url("../assets/fondo.jpg"); 
+}
+
+.container-introduction {
+  width: 50%;
+  margin-top: 17%;
+}
+
+.container-introduction p{
+
+  padding: 0 10% 0 10%;
+  font-size: 18px;
+}
+
+/* boton de asesoria */
+.content-advisory{
+  background-color: #808080;
+  width: fit-content;
+  padding:1% 2%;
+  margin-top: 6%;
+  margin-left: 9%;
+}
+
+.button-advisory{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* foto principal */
+.container-photo {
+  width: 45%;
+}
+
+.container-photo img {
+  width: 100%;
+}
+
+/* seccion experiencia y casos */
+.container-experience {
+  display: grid;
+  grid-template-areas:
+  "text1  text2 process";
+  /* grid-template-columns: repeat(180px, 3fr);   */
+  /* grid-template-rows: repeat(1, 1fr); */
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.text-introdution-1{
+  grid-area: text1;
+  padding-right: 1%;
+  width: 90%;
+}
+
+.text-introdution-2{
+  grid-area: text2;
+  width: 100%;
+}
+
+.content-process{
+  grid-area: process;
+  width: 100%;
+}
+
+.container-experience ul {
+  margin-left: 20%;
+  font-size: 16px;
+}
+
+/* formulario asesoria */
+.content-form {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+
+.content-form div {
+  margin-bottom: 1%;
+}
+
+.text-block {
+
+  display: block;
+  width: 100%;
+  margin-top: 1%;
+  height: 25px;
+  border: 2px solid #808080;
+  border-radius: 10px;
+}
+
+#dude{
+  width: 100%;
+  height: 150px;
+}
+
+/* contenido footer */
+.content-footer{
+  display: flex;
+  margin-top: 10%;
+  background-color: #808080;
+  padding-top: 4%;
+  justify-content: center;
+    align-items: center;
+}
+
+.content-footer p{
+width: 20%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 16px;
+}
+
+.content-footer a img {
+
+  width: 15%;
+
+}
+
+     /* ESTILOS PAGINA CASOS */
+
+/*SECCION LISTADO DE CASOS Y EXPERIENCIA  */
+
+
+.container-main{
+  display: grid;
+  grid-template-areas:
+  "title  title"
+  "description  cases";
+  grid-template-columns: repeat(1, 1fr)  ;  
+  grid-template-rows: repeat(1, 1fr);
+
+}
+
+.content-cases-successful{
+  grid-area: title;
+  text-align: center;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 24px;
+}
+
+.content-experience{
+  grid-area: description;
+  width: 80%;
+  margin-right: 8%;
+  text-align: left;
+  line-height:1.5rem
+}
+
+.content-cases{
+  grid-area: cases;
+  display: flex;
+}
+
+.content-cases ul{
+
+  margin-right: 10%;
+}
+
+.content-cases ul li{
+  line-height:1.5rem
+}
+
+/* ESTILOS CONTACTO */
+
+/* imagen contacto */
+.content-contact {
+  margin-top: 5%;
+}
+/* seccion introduccion abogada */
+.content-pre-form{
+  width: 40%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 5%;
+}
+
+.content-pre-form h2 {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+}
+.content-pre-form p{
+  line-height: 1.5rem;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* ESTILOS SERVICES */
+/* seccion sobre los servicios ofrecidos*/
+.content-services{
+  margin-top: 5%;
+}
+
+.information-services{
+  margin: 3% auto;
+  width: 50%;
+}
+
+.information-services h2{
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 2rem;
+
+}
+
+.information-services h3{
+  text-align: center;
+  margin-bottom: 2%;
+
+}
+.information-services p{
+  text-align: center;
+  line-height: 1.5rem;
+
+}
+
+/* ESTILOS SOBRE MI */
+/* agrega fondo */
+.content-about-me{
+  width: 40%;
+  margin: 3% auto;
+  background-image: url("../assets/fondo.jpg");
+}
+/* imagen principal */
+.content-image-foto{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.content-image-foto img{
+  width: 100%;
+}
+
+.content-about-me div h2{
+  text-align: center;
+  margin-bottom: 6%;
+  font-size: 1.8rem;
+}
+/* seccion sobre mi */
+.information-about-me{
+  line-height: 1.4rem;
+  padding: 1% 5%;
+}
+
+
+/*** MEDIA QUERYS ***/
+
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+
+  .items-nav {
+    display: flex;
+    font-size: 16px;
+    
+  }
+
+  .items-nav li {
+    margin-right: 2%;
+    list-style: none;
+    background-color: grey;
+    width: 14%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  .items-nav li a{
+    font-size: 14px;
+  }
+  
+  .container-introduction p {
+    font-size: 14px;
+  }
+
+  .button-advisory{
+    font-size: 16px;
+  }
+
+  .content-form{
+    width: 40%;
+  }
+
+ .content-footer p {
+    width: 100%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    font-size: 12px;
+ }
+}
+
+@media only screen and (max-width: 540px) {
+
+  .container-logo {
+    width: 250px;
+  }
+
+  .content-form{
+    width: 60%;
+  }
+  
+  .container-experience{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container-experience ul{
+    margin-left: 5%;
+  }
+  
+  .text-introdution-1,.text-introdution-2, 
+  .content-process {
+    margin-top: 5%;
+    margin-bottom: 4%;
+  
+  }
+  .container-introduction{
+    margin-top: 6%;
+  }
+
+  .container-photo {
+    margin-top: 10%;
+  }
+
+  .content-icon{
+    width: 200px;
+  }
+  .content-advisory {
+    margin-bottom: 10%;
+  }
+}
